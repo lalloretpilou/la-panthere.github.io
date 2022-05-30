@@ -45,14 +45,16 @@
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-						<a href="page2.html">Nous Contacter</a>
-					</li>
-				</ul>
+				<nav>
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a href="index.html">Accueil</a>
+						</li>
+						<li>
+							<a href="contactUs.html">Nous Contacter</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</nav>
 	</div>
@@ -82,7 +84,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label>
 							Nom<input id="name" class="form-control" required />
@@ -112,7 +114,7 @@
 				<p>
 					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
-					Nos Partenaires
+					<p class="mg-md tc-white">Nos Partenaires</p>
 						<ul>
 							<li><a href="voiture.com">voiture.com</a></li>
 							<li><a href="pizza.com">pizza.com</a></li>
