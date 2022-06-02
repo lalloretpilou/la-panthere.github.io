@@ -727,7 +727,7 @@ h1 {
 }
 
 p {
-    color: #333333!important;
+    color: rgb(0, 0, 0)!important;
     font-size: 13px!important;
 }
 
