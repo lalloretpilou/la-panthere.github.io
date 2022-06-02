@@ -726,6 +726,10 @@ h1 {
     color: #333333!important;
 }
 
+p {
+    color: #333333!important;
+}
+
 h4 {
     color: #333333!important;
 }
@@ -754,7 +758,6 @@ h4 {
 }
 
 .black-background {
-    /*background-color: rgba(133, 115, 61, 0.7);*/
     padding: 40px 40px 40px 40px;
 }
 
