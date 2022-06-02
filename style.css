@@ -728,6 +728,11 @@ h1 {
 
 p {
     color: #333333!important;
+    font-size: 13px!important;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 h4 {
